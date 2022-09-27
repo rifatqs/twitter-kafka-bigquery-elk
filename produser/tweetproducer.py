@@ -6,10 +6,10 @@ producer = KafkaProducer(
     value_serializer=lambda x: dumps(x).encode('utf-8')
 )
 
-access_token ="264630885-y2nJBVa6r5FfbcksmrO6Ixx1IodT6ZtZf2M29eQx"
-acces_token_secret = "DL64aX0uelQLJwA9dYYbocCFycekdfQ37xO4aESziGo8J"
-api_key = "2wWuJZcgdwM9VaO0l0nmoGVw5"
-api_key_secret ="GwHxNyiHzVq6uP9Brvp0JIW0pQSDJ7YBnf6hodO5b3hqKBfONY"
+access_token ="..."
+acces_token_secret = "..."
+api_key = "..."
+api_key_secret ="..."
 
 auth = tweepy.OAuthHandler(api_key,api_key_secret)
 auth.set_access_token(access_token,acces_token_secret)
