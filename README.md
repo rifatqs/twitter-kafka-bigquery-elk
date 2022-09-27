@@ -1,0 +1,2 @@
+# twitter-kafka-bigquery-elk
+INGEST DATA FROM TWITTER TO BIGQUERY , ELASTIC SEARCH & KIBANA
