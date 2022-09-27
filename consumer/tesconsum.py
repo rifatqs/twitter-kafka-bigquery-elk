@@ -3,7 +3,7 @@ from json import loads
 from time import sleep
 consumer = KafkaConsumer(
     'twitter',
-    bootstrap_servers=['34.101.166.127:9092'],
+    bootstrap_servers=['(broker):9092'],
     auto_offset_reset='earliest',
     enable_auto_commit=True,
     group_id='my-group-id',
